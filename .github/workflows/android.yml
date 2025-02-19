@@ -26,5 +26,5 @@ jobs:
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        path: app/build/outputs/apk/* app/build/outputs/bundle/*
+        path: app/build/outputs/*
         name: build-artifacts
